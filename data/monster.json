@@ -1,0 +1,108 @@
+{
+    "animations": [
+        {
+            "name": "t_1_2",
+            "loop": true,
+            "framecount": 16,
+            "frames": [{
+                "frameid": 0,
+                "sprite": "character_sp_000_000",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 4,
+                "sprite": "character_sp_001_001",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 8,
+                "sprite": "character_sp_002_000",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 12,
+                "sprite": "character_sp_002_001",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            },  {
+                "frameid": 25,
+                "sprite": "character_sp_003_001",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }
+            ]
+        },
+        {
+            "name": "t_1_3",
+            "loop": false,
+            "framecount": 16,
+            "frames": [{
+                "frameid": 0,
+                "sprite": "character_sp_000_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 4,
+                "sprite": "character_sp_001_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 8,
+                "sprite": "character_sp_002_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 12,
+                "sprite": "character_sp_003_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }
+            ]
+        }
+    ],
+    "players": [{
+        "name": "p1",
+        "anis": [{
+                "aniname": "walk",
+                "left": "t_1_2",
+                "right": "t_1_2",
+                "up": "t_1_2",
+                "down": "t_1_2"
+            },
+            {
+                "aniname": "gone",
+                "left": "t_1_3",
+                "right": "t_1_3",
+                "up": "t_1_3",
+                "down": "t_1_3"
+            },
+            {
+                "aniname": "back",
+                "left": "t_1_2",
+                "right": "t_1_2",
+                "up": "t_1_2",
+                "down": "t_1_2"
+            }
+        ]
+
+
+    }]
+}

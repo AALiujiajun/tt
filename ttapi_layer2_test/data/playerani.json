@@ -1,0 +1,155 @@
+{
+    "atlas":"splittex_pack0.png.json",
+    "animations": [{
+            "name": "t_1_0",
+            "loop": true,
+            "framecount": 16,
+            "frames": [{
+                "frameid": 0,
+                "sprite": "l_sp_000_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 4,
+                "sprite": "l_sp_001_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 8,
+                "sprite": "l_sp_002_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 12,
+                "sprite": "l_sp_003_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }]
+        },
+        {
+            "name": "t_1_1",
+            "loop": true,
+            "framecount": 16,
+            "frames": [{
+                "frameid": 0,
+                "sprite": "r_sp_000_003",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 4,
+                "sprite": "r_sp_001_003",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 8,
+                "sprite": "r_sp_002_003",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 12,
+                "sprite": "r_sp_003_003",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }]
+        },
+        {
+            "name": "t_1_2",
+            "loop": true,
+            "framecount": 16,
+            "frames": [{
+                "frameid": 0,
+                "sprite": "b_sp_000_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 4,
+                "sprite": "b_sp_001_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 8,
+                "sprite": "b_sp_002_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 12,
+                "sprite": "b_sp_003_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }]
+        },
+        {
+            "name": "t_1_3",
+            "loop": true,
+            "framecount": 16,
+            "frames": [{
+                "frameid": 0,
+                "sprite": "f_sp_000_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 4,
+                "sprite": "f_sp_001_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 8,
+                "sprite": "f_sp_002_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }, {
+                "frameid": 12,
+                "sprite": "f_sp_003_002",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": -64,
+                "offsetY": -64
+            }]
+        }
+    ],
+    "players": [{
+        
+        "name": "p1",
+        "anis": [{
+                "aniname": "walk",
+                "left": "t_1_0",
+                "right": "t_1_1",
+                "up": "t_1_2",
+                "down": "t_1_3"
+            }
+
+        ]
+
+
+    }]
+}

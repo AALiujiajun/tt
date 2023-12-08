@@ -1,0 +1,32 @@
+{
+    "animations": [
+        {
+            "name": "t_1_2",
+            "loop": false,
+            "framecount": 16,
+            "frames": [{
+                "frameid": 0,
+                "sprite": "wall",
+                "scaleX": 1,
+                "scaleY": 1,
+                "offsetX": 0,
+                "offsetY": 0
+            }
+            ]
+        }
+    ],
+    "players": [{
+        "name": "wall",
+        "anis": [{
+                "aniname": "walk",
+                "left": "t_1_2",
+                "right": "t_1_2",
+                "up": "t_1_2",
+                "down": "t_1_2"
+            }
+
+        ]
+
+
+    }]
+}

@@ -1,0 +1,99 @@
+{
+    "animations": [
+        {
+            "name": "t_1_2",
+            "loop": true,
+            "framecount": 16,
+            "frames": [{
+                "frameid": 0,
+                "sprite": "bullet_03",
+                "scaleX": 2,
+                "scaleY": 2,
+                "offsetX": 0,
+                "offsetY": 0
+            }, {
+                "frameid": 4,
+                "sprite": "bullet_04",
+                "scaleX": 2,
+                "scaleY": 2,
+                "offsetX": 0,
+                "offsetY": 0
+            }, {
+                "frameid": 8,
+                "sprite": "bullet_05",
+                "scaleX": 2,
+                "scaleY": 2,
+                "offsetX": 0,
+                "offsetY": 0
+            }
+            ]
+        },
+        {
+            "name": "mortar",
+            "loop": true,
+            "framecount": 16,
+            "frames": [{
+                "frameid": 0,
+                "sprite": "mortar",
+                "scaleX": 2,
+                "scaleY": 2,
+                "offsetX": 0,
+                "offsetY": 0
+            }, {
+                "frameid": 4,
+                "sprite": "mortarMiddle",
+                "scaleX": 2,
+                "scaleY": 2,
+                "offsetX": 0,
+                "offsetY": 0
+            }, {
+                "frameid": 8,
+                "sprite": "mortarboom",
+                "scaleX": 2,
+                "scaleY": 2,
+                "offsetX": 0,
+                "offsetY": 0
+            }
+            ]
+        },  {
+            "name": "ap",
+            "loop": true,
+            "framecount": 16,
+            "frames": [{
+                "frameid": 0,
+                "sprite": "ap",
+                "scaleX": 2,
+                "scaleY": 2,
+                "offsetX": 0,
+                "offsetY": 0
+            }
+            ]
+        }
+    ],
+    "players": [{
+        "name": "b1",
+        "anis": [{
+                "aniname": "急射炮",
+                "left": "t_1_2",
+                "right": "t_1_2",
+                "up": "t_1_2",
+                "down": "t_1_2"
+            },{
+                "aniname": "mortar",
+                "left": "mortar",
+                "right": "mortar",
+                "up": "mortar",
+                "down": "mortar"
+            },{
+                "aniname": "ap",
+                "left": "ap",
+                "right": "ap",
+                "up": "ap",
+                "down": "ap"
+            }
+
+        ]
+
+
+    }]
+}

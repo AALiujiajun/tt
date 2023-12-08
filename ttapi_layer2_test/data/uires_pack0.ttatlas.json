@@ -1,0 +1,201 @@
+{
+    "packoption": {
+        "srcpath": "uires",
+        "packwidth": 1024,
+        "packheight": 1024
+    },
+    "tex": "uires_pack0_pack0.png",
+    "texsize": "1024,1024",
+    "sprites": [
+        {
+            "name": "btncheckborder1",
+            "uv": "0,0,32,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btncheckborder2",
+            "uv": "0,17,32,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnnocheckborder1",
+            "uv": "0,34,32,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnnocheckborder2",
+            "uv": "33,0,32,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "desktop_title",
+            "uv": "66,0,32,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnnotoggle_rborder1",
+            "uv": "33,17,31,16",
+            "border": "1,0,0,0"
+        },
+        {
+            "name": "btnnotoggle_rborder2",
+            "uv": "33,34,31,16",
+            "border": "1,0,0,0"
+        },
+        {
+            "name": "btnnotoggleborder1",
+            "uv": "65,17,31,16",
+            "border": "1,0,0,0"
+        },
+        {
+            "name": "btnnotoggleborder2",
+            "uv": "97,17,31,16",
+            "border": "1,0,0,0"
+        },
+        {
+            "name": "btntoggle_rborder1",
+            "uv": "65,34,31,16",
+            "border": "0,0,1,0"
+        },
+        {
+            "name": "btntoggle_rborder2",
+            "uv": "97,34,31,16",
+            "border": "0,0,1,0"
+        },
+        {
+            "name": "btntoggleborder1",
+            "uv": "0,51,31,16",
+            "border": "0,0,1,0"
+        },
+        {
+            "name": "btntoggleborder2",
+            "uv": "0,68,31,16",
+            "border": "0,0,1,0"
+        },
+        {
+            "name": "grid",
+            "uv": "0,85,20,20",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "border",
+            "uv": "99,0,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnborder1",
+            "uv": "0,106,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnborder2",
+            "uv": "17,106,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnchecksmall1",
+            "uv": "21,85,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnchecksmall2",
+            "uv": "34,102,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnnochecksmall1",
+            "uv": "32,51,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnnochecksmall2",
+            "uv": "32,68,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnroundsmall_no1",
+            "uv": "38,85,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnroundsmall_no2",
+            "uv": "51,102,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnroundsmall1",
+            "uv": "49,51,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnroundsmall2",
+            "uv": "49,68,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "panelback1",
+            "uv": "55,85,16,12",
+            "border": "0,4,0,0"
+        },
+        {
+            "name": "panelback2",
+            "uv": "68,98,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "panelback3",
+            "uv": "66,51,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "paneltitle3",
+            "uv": "66,68,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "round",
+            "uv": "85,51,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "icon1",
+            "uv": "102,51,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "icon2",
+            "uv": "83,68,16,16",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "bar",
+            "uv": "34,119,8,8",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "bardark",
+            "uv": "119,51,8,8",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "barh",
+            "uv": "0,123,8,4",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "barv",
+            "uv": "43,119,4,8",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "btnborder",
+            "uv": "119,60,8,8",
+            "border": "0,0,0,0"
+        },
+        {
+            "name": "resizer",
+            "uv": "48,119,7,7",
+            "border": "1,1,2,2"
+        }
+    ]
+}

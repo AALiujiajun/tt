@@ -1,0 +1,56 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>html5</title>
+
+    <style>
+        body {
+            zoom: reset;
+            /* 还原缩放 */
+            zoom: 100%;
+            /* 禁止缩放 */
+            -webkit-user-drag: none;
+            /* 禁止拖拽 */
+            -webkit-touch-callout: none;
+            /* 禁止长按弹出菜单 */
+            -webkit-tap-highlight-color: transparent;
+            /* 禁止点击时的高亮效果 */
+            border: 0px;
+            margin: 0px;
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE 10+ */
+            user-select: none; /* 标准语法 */
+        }
+    </style>
+    <script>
+        document.addEventListener('mousewheel', function (e) {
+            e = e || window.event;
+            if ((e.wheelDelta && event.ctrlKey) || e.detail) {
+                event.preventDefault();
+            }
+        }, { capture: false, passive: false });
+        document.addEventListener('keydown', function (event) {
+            if ((event.ctrlKey === true || event.metaKey === true)
+                && (event.keyCode === 61 || event.keyCode === 107
+                    || event.keyCode === 173 || event.keyCode === 109
+                    || event.keyCode === 187 || event.keyCode === 189)) {
+                event.preventDefault();
+            }
+        }, false);
+        document.addEventListener('touchmove', function (event) {
+            event.preventDefault();
+        }, { passive: false });
+
+        document.addEventListener('dragstart', function (event) {
+            event.preventDefault();
+        }, false);
+    </script>
+
+
+    <script type="module" src="main.js"></script>
+</head>
+
+<body>
+
+</body>
